@@ -1,0 +1,54 @@
+body {
+    width: 800px;
+    margin: 0px;
+}
+
+#top-nav {
+    height: 80px;
+    background: white;
+    margin-left: 25px;
+}
+
+#content {
+    height: 800px;
+    background: rgb(223, 223, 223);
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.active {
+    background-color: navy;
+    color: white;
+}
+
+#top-nav div {
+    display: inline-block;
+    padding: 20px;
+    /* total width will be 150, due to padding */
+    width: 110px; 
+    /* total height will be 80, due to padding */
+    height: 40px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.edit-button {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+
+#left-col {
+    background-color: white;
+    width: 250px;
+    height: 100%;
+    margin-right: 25px
+}
+
+#right-col {
+    background-color: white;
+    width: 475px;
+    height: 100%;
+}

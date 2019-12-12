@@ -1,0 +1,14 @@
+#top-nav {
+   height: 80px;
+   background-color: white;
+}
+
+#content {
+   height: 800px;
+   background-color: rgb (223,223,223)
+}
+
+.active {
+    background-color: navy;
+    
+}

@@ -1,0 +1,138 @@
+.parent {
+   background-color: rgb(255, 189, 173);
+   height: 100px;
+ }
+ 
+ .child {
+   background-color: rgb(255, 246, 164);
+   height: 50px;
+ }
+ 
+ .child-1 {
+   background-color: azure;
+ }
+ 
+ .child-2 {
+   background-color: rgb(96, 192, 192);
+ }
+ 
+ .child-3 {
+   background-color: rgb(11, 109, 109);
+ }
+ 
+ #parent-1 {
+   padding: 20px;
+ }
+ 
+ #parent-2 {
+   margin-left: 50px;
+ }
+ 
+ #parent-2 .child {
+   margin-left: 50px;
+ }
+ 
+ #parent-3 .child {
+   width: 30%;
+   display: inline-block;
+ }
+ 
+ #parent-4 .child {
+   width: 50%;
+   text-align: center;
+ }
+ 
+ #parent-5 .child {
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+ }
+ 
+ #parent-6 {
+   padding-left: 5%;
+   padding-right: 5%;
+ }
+ 
+ #parent-6 .child {
+   display: inline-block;
+   width: 18%;
+ }
+ 
+ #parent-7 {
+   height: 80px;
+   padding-top: 20px;
+ }
+ 
+ #parent-7 .child {
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+   height: 60px;
+ }
+ 
+ #parent-8 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ #parent-8 .child {
+   width: 50%;
+ }
+ 
+ #parent-9 {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ #parent-9 .child {
+   width: 50%;
+ }
+ 
+ #parent-10 {
+   display: flex;
+   align-items: center;
+ }
+ 
+ #parent-10 .child {
+   width: 50%;
+ }
+ 
+ #parent-11 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ #parent-11 .child {
+   width: 50%;
+ }
+ 
+ #parent-12 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ #parent-12 .inner {
+   height: 80%;
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ #parent-12 .child {
+   width: 18%;
+ }
+ 
+ #parent-13 {
+   position: relative;
+ }
+ 
+ #parent-13 .child {
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
